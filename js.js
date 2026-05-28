@@ -2,7 +2,7 @@ async function show() {
 
     let x = document.querySelector("#city").value;
 
-    let apikey = "434504dde5451730f015caa41a0a44ba";
+    let apikey = "abc";
 
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${x}&appid=${apikey}&units=metric`;
 
